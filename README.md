@@ -1,6 +1,10 @@
 # React + Vite
 
+New Netflix Clone Application built with ReactJS and Tailwind CSS.
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+YouTube Ref: https://www.youtube.com/watch?v=ATz8wg6sg30&t=2994s
 
 Currently, two official plugins are available:
 

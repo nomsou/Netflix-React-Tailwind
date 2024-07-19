@@ -556,8 +556,20 @@ video {
   --tw-contain-style:  ;
 }
 
+.absolute{
+  position: absolute;
+}
+
+.z-\[100\]{
+  z-index: 100;
+}
+
 .flex{
   display: flex;
+}
+
+.w-full{
+  width: 100%;
 }
 
 .cursor-pointer{

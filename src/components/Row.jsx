@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import axios from 'axios'
 import { FaHeart, FaRegHeart } from 'react-icons/fa'
 
-const Row = (title, fetchURL) => {
+const Row = ({title, fetchURL}) => {
   const [movies, setMovies] = useState([]);
   const[like, setLike] = useState(false);
 

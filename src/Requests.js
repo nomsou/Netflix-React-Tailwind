@@ -1,5 +1,4 @@
-const key = '6cb0a4437bef6cb54e0eb25cea574d2b'
-
+const key = "6cb0a4437bef6cb54e0eb25cea574d2b";
 
 //  Endpoints
 const requests = {

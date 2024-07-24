@@ -1,6 +1,7 @@
 import React from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { UserAuth } from "../context/AuthContext";
+import profile_img from "../assets/profile_img.png";
 
 const Navbar = () => {
   const { user, logOut } = UserAuth();
@@ -26,12 +27,14 @@ const Navbar = () => {
       {user?.email ? (
         <div>
           <Link to="/account">
-            <button className="text-white pr-4">Account</button>
+            <button className="text-white pr-4 transform hover:scale-110 transition-transform duration-300">
+              Account
+            </button>
           </Link>
 
           <button
             onClick={handleLogout}
-            className="bg-red-600 px-6 py-2 rounded cursor-pointer text-white"
+            className="bg-red-600 px-6 py-2 rounded cursor-pointer text-white transform hover:scale-110 transition-transform duration-300"
           >
             Logout
           </button>
@@ -39,7 +42,9 @@ const Navbar = () => {
       ) : (
         <div>
           <Link to="/login">
-            <button className="text-white pr-4 transform hover:scale-110 transition-transform duration-300">Sign In</button>
+            <button className="text-white pr-4 transform hover:scale-110 transition-transform duration-300">
+              Sign In
+            </button>
           </Link>
 
           <Link to="/signup">

@@ -35,11 +35,11 @@ const Main = () => {
         <div className="absolute w-full top-[20%] p-4 md:p-8">
           <h1 className="text-3xl md:text-5xl font-bold">{movie?.title}</h1>
           <div className="my-4">
-            <button className="border-0 outline-none p-2 px-5 inline-flex items-center gap-2.5 text-base font-semibold bg-white rounded cursor-pointer">
+            <button className="border-0 outline-none p-2 px-5 inline-flex items-center gap-2.5 text-base font-semibold bg-white rounded cursor-pointer transform hover:scale-110 transition-transform duration-300">
               <img className="w-[25px] sm:w-[15px]" src={play_icon} alt="" />
               Play
             </button>
-            <button className="border-0 outline-none p-2 px-5 inline-flex items-center gap-2.5 text-base font-semibold bg-[rgba(109,109,110,0.4)] rounded cursor-pointer ml-5">
+            <button className="border-0 outline-none p-2 px-5 inline-flex items-center gap-2.5 text-base font-semibold bg-[rgba(109,109,110,0.4)] rounded cursor-pointer ml-5 transform hover:scale-110 transition-transform duration-300">
               <img className="w-[25px] sm:w-[15px]" src={info_icon} alt="" />
               More Info
             </button>
